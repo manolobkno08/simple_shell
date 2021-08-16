@@ -16,7 +16,7 @@ int main()
     /* variable donde se almacena */
     char *token;
 
-    /* devuelve un puntero */
+    /* devuelve un puntero * */
     token = strtok(text, separator);
     int i = 0;
     while (token != NULL)

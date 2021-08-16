@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 
+/* my own strtok */
 char *_strtok(char * str, const char * delimiter)
 {
     return (str);

@@ -14,7 +14,7 @@ int main()
 {
     char *prompt = "./$ ";
 
-    /* define puntero donde voy a almacenar lo que captura getline */
+    /* define puntero * donde voy a almacenar lo que captura getline */
     char *line;
     /* entero que va a indicar cuanto va a valer line */
     size_t lineSize = 0;
