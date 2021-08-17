@@ -15,7 +15,7 @@
 
 typedef struct vars
 {
-    char * buffer;
+    char * buffer; 
     /* esto es lo que me devuelve mi tokenizer */
     char ** array;
 }vars_t;
