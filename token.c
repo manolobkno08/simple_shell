@@ -1,15 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
+#include "main.h"
 
-/* my own strtok */
-char *_strtok(char * str, const char * delimiter)
-{
-    return (str);
-}
-
-char **tokenizer(char *buffer, char *delimiter)
+char **tokenizer(char * buffer, char * delimiter)
 {
     char **tokens = NULL;
     size_t i = 0;
@@ -27,7 +18,7 @@ char **tokenizer(char *buffer, char *delimiter)
         return (NULL);
     }
 
-    while ((tokens[i] = strtok(buffer, delimiter)) != NULL)
+    while ((tokens[i] = _strtok(buffer, delimiter)) != NULL)
     {
         i++;
         if (i >= mcount)
@@ -40,20 +31,4 @@ char **tokenizer(char *buffer, char *delimiter)
         
     }
     return (tokens);
-}
-
-void main()
-{
-    char buffer[] = "Hola Mundo Lindo";
-    char *delimiter = " \n";
-    char **array;
-    
-    array = tokenizer(buffer, delimiter);
-
-    while (*array)
-    {
-        printf("%s\n", *array);
-        array++;
-    }
-    
 }

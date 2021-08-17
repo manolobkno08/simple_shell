@@ -1,35 +1,53 @@
-#include <stdio.h>
-#include <unistd.h>
-
-int getStringLenght(char *string)
-{
-    int i;
-    for (i = 0; string[i] != '\0'; i++)
-    ;
-
-    return (i);
-}
+#include "main.h"
 
 int main()
 {
-    char *prompt = "./$ ";
+    vars_t vars = {NULL};
 
-    /* define puntero * donde voy a almacenar lo que captura getline */
-    char *line;
+    char *prompt = "($) ";
+
+    char *delimiter = " \n";
+
+    char (*f)(vars_t * r);
+
     /* entero que va a indicar cuanto va a valer line */
     size_t lineSize = 0;
     /* guardar caracteres que capture */
     int charactersRead = 0;
 
-    while (1)
+    write(STDOUT_FILENO, prompt, getStringLenght(prompt));
+
+    while (charactersRead = getline(&vars.buffer, &lineSize, stdin) != -1)
     {
-        write(STDOUT_FILENO, prompt, getStringLenght(prompt));
+        vars.array = tokenizer(vars.buffer, delimiter);
 
-        /* recibe los argumentos: recibe  */
-        charactersRead = getline(&line, &lineSize, stdin);
+        if(vars.array == NULL)
+        {
+            write(STDOUT_FILENO, prompt, getStringLenght(prompt));
+            continue;
+        }
+        else
+        {
+            f = match(&vars);
+            if(f == NULL)
+            {
+                printf("No such file or directory");
+                putchar('\n');
+                write(STDOUT_FILENO, prompt, getStringLenght(prompt));
+                continue;
+            }
+            else
+            {
+                f(&vars);
+            }
 
-        write(STDOUT_FILENO, line, charactersRead);
+            write(STDOUT_FILENO, prompt, getStringLenght(prompt));
+        }
+
+        
     }
+
+    putchar('\n');
 
     return (0);
 }
