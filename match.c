@@ -5,7 +5,9 @@ char (* match(vars_t * m))(vars_t * n)
     int i;
 
     match_t op[] = {
-        {"hi", file1},
+        {"ls", listfiles},
+        {"pwd", current_dir},
+        {"delete", delete_dir},
         {"exit", esc},
         {NULL, NULL}
     };
@@ -18,15 +20,4 @@ char (* match(vars_t * m))(vars_t * n)
         }
     }
     return (op[i].f);
-}
-
-char file1(vars_t * vars)
-{
-    printf("Hola\n");
-    return (0);
-}
-
-char esc(vars_t * vars)
-{
-    exit(98);
 }

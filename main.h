@@ -31,7 +31,9 @@ char **tokenizer(char * buffer, char * delimiter);
 char *_strtok(char * buffer, const char * delimiter);
 
 char (* match(vars_t * m))(vars_t * n);
-char file1(vars_t * vars);
+char listfiles(vars_t * ls);
+char current_dir(vars_t * pwd);
+char delete_dir(vars_t * rm);
 char esc(vars_t * vars);
 
 #endif
