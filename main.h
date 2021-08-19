@@ -36,4 +36,8 @@ char current_dir(vars_t * pwd);
 char delete_dir(vars_t * rm);
 char esc(vars_t * vars);
 
+int main( int argc, char *argv[], char *envp[] );
+
+int _strncmp(const char *s1, const char *s2, size_t n);
+
 #endif

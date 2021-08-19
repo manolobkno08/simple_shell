@@ -1,6 +1,6 @@
 #include "main.h"
 
-int main()
+int main( int argc, char *argv[], char *envp[] )
 {
     vars_t vars = {NULL};
 
@@ -31,6 +31,8 @@ int main()
             f = match(&vars);
             if(f == NULL)
             {
+                /* trabajar con env */
+
                 printf("No such file or directory");
                 putchar('\n');
                 write(STDOUT_FILENO, prompt, getStringLenght(prompt));
