@@ -1,1 +1,4 @@
-Desc del proyecto de shell
+# Simple_shell
+Es una consola que contiene un ambiente 
+
+## How used it?
