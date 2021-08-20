@@ -25,8 +25,8 @@ y ya puede comenzar a usar la shell con todos sus comandos.
 
 ### Authors
 
--**Sebastian Villa** - *villalopezsebastian@gmail.com* - [GitHub](https://github.com/SebasVillaLo)
--**Manuell** - * * - [GitHub](https://github.com/manolobkno08)
+- **Sebastian Villa** - *villalopezsebastian@gmail.com* - [GitHub](https://github.com/SebasVillaLo)
+- **Manuell** - * * - [GitHub](https://github.com/manolobkno08)
 
 ## Lenguaje
 - C
