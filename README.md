@@ -10,15 +10,15 @@ descargue el cosigo y lo compila de la siguiente manera 'gcc -Wall -Werror -Wext
 y ya puede comenzar a usar la shell con todos sus comandos.
 
 ### FlowChar
-<img src = "" alt = "" width ""/>
+<img src = "" alt = "" width = "500"/>
 
 ### Examples
 - Compilar codigo
-<img src = "" alt = "" width ""/>
-- ejecutar codigo
-<img src = "" alt = "" width ""/>
-- usar shell
-<img src = "" alt = "" width ""/>
+<img src = "" alt = "" width = "500"/>
+- Ejecutar codigo
+<img src = "" alt = "" width = "500"/>
+- Usar shell
+<img src = "" alt = "" width = "500"/>
 
 ### Man page
 
@@ -26,7 +26,7 @@ y ya puede comenzar a usar la shell con todos sus comandos.
 ### Authors
 
 - **Sebastian Villa** - *villalopezsebastian@gmail.com* - [GitHub](https://github.com/SebasVillaLo)
-- **Manuell** - * * - [GitHub](https://github.com/manolobkno08)
+- **Manuel Alejandro Gomez** - *manologm10@hotmail.com* - [GitHub](https://github.com/manolobkno08)
 
 ## Lenguaje
 - C
