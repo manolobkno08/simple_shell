@@ -26,14 +26,15 @@ typedef struct matcher
 	char (*f)(vars_t *);
 } match_t;
 
-int getStringLenght(char *string);
-char **tokenizer(char * buffer, char * delimiter);
-char *_strtok(char * buffer, const char * delimiter);
+int _strlen(char *str);
+char *_strcat(char *str1, char *str2);
+char *_strdup(char *str);
+int _strncmp(char *str, char *str2, int num);
+
+char **tokenizer(char *buffer, char *delimiter);
+char *_strtok(char *buffer, const char *delimiter);
 
 char (* match(vars_t * m))(vars_t * n);
-char listfiles(vars_t * ls);
-char current_dir(vars_t * pwd);
-char delete_dir(vars_t * rm);
 char esc(vars_t * vars);
 
 #endif
