@@ -83,7 +83,11 @@ the shell allows us to access the operating system kernel. Actually, the shell i
 
 - Non-interactive mode
 
+<<<<<<< HEAD
 <img src = "https://cdn.discordapp.com/attachments/855109206503194644/879879815908433930/unknown.png" alt = "" width = "800"/>
+=======
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880794284376124/unknown.png" alt = "" width = "900"/>
+>>>>>>> e7f4a45a9f6807eacde04cbfd1a4557fd78af439
 
   
 
