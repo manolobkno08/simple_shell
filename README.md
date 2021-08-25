@@ -1,4 +1,5 @@
 
+
 <img  src  =  "https://www.holbertonschool.com/holberton-logo.png"  alt  =  ""  width  =  "500"/>
 
 
@@ -74,15 +75,15 @@ the shell allows us to access the operating system kernel. Actually, the shell i
 
 - Compile code
 
-<img src = "" alt = "" width = "500"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879879815908433930/unknown.png" alt = "" width = "750"/>
 
 - Interactive mode
 
-<img src = "" alt = "" width = "500"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880317807247371/unknown.png" alt = "" width = "750"/>
 
 - Non-interactive mode
 
-<img src = "" alt = "" width = "500"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879879815908433930/unknown.png" alt = "" width = "800"/>
 
   
 
