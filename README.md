@@ -86,7 +86,7 @@ the shell allows us to access the operating system kernel. Actually, the shell i
 
   
 
-### Intall
+### Install
 - Copy the repository to your linux 
 - Enter the new folder `simple_shell`.
 - Compile the files as in the example `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`.
