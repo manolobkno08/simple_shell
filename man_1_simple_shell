@@ -2,14 +2,14 @@
 .SH NAME
 Shell
 .SH SYPNOPSIS
-	Para correr nuestra SHELL hay dos formas, una es en modo interactivo que tienes que ejecutar el siguiente comando "./hsh" dentro de la terminal, el 
-	modo no interactivo ""comando" | ./hsh"
-.SH DESCRIPCION
-	Nustra primera SHELL en linux
-	Estos son los comandos de nuestra shell:
+	To run our SHELL there are two ways, one is in interactive mode you have to execute the following command "./hsh" inside the terminal, the other is in non-interactive mode "./hsh". 
+	non-interactive mode "./hsh" command inside the terminal.
+.SH DESCRIPTION
+	Our first linux SHELL
+	These are the commands of our shell:
 	-ls
 	-pwd
-	-
 	-exit
-.SH AUTOR
+	-clear
+.SH AUTHOR
 Sebastian Villa (villalopezsebastian@gmail.com) | Manuel Gomez (manologm10@hotmail.com)
