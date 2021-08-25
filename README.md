@@ -33,7 +33,7 @@ It is a console that contains an interpreted environment and this is the content
 
 ### Desciption
 
-the shell allows us to access the operating system kernel. Actually, the shell interprets the command line and executes the programs it indicates. However, in addition to reading the command line, it can also execute commands found in a file. Any command that can be typed on the command line can be included in a file that is called a shell. These are the calls used:
+The shell allows us to access the operating system kernel. Actually, the shell interprets the command line and executes the programs it indicates. However, in addition to reading the command line, it can also execute commands found in a file. Any command that can be typed on the command line can be included in a file that is called a shell. These are the calls used:
 
 - `fork`
 
