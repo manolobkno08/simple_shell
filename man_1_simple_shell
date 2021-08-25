@@ -1,15 +1,31 @@
-./" Man page for shell
+.TH hsh 1 "August 25, 2021" "Linux" "Shell User Manual"
+
 .SH NAME
-Shell
+
+.B simple shell
 .SH SYPNOPSIS
+
 	To run our SHELL there are two ways, one is in interactive mode you have to execute the following command "./hsh" inside the terminal, the other is in non-interactive mode "./hsh". 
 	non-interactive mode "./hsh" command inside the terminal.
+
+.PP
 .SH DESCRIPTION
+
 	Our first linux SHELL
 	These are the commands of our shell:
-	-ls
-	-pwd
-	-exit
-	-clear
+.RS
+.RE
+-ls
+.RE
+-pwd
+.RE
+-exit
+.RE
+-clear
+
 .SH AUTHOR
-Sebastian Villa (villalopezsebastian@gmail.com) | Manuel Gomez (manologm10@hotmail.com)
+Sebastian Villa  and Manuel Gomez 
+
+.SH FOR MISTAKES
+Sebastian (villalopezsebastian@gmail.com) or Manuel (manologm10@hotmail.com)
+
