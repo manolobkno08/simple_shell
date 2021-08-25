@@ -73,11 +73,11 @@ the shell allows us to access the operating system kernel. Actually, the shell i
 
 - Compile code
 
-<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879879815908433930/unknown.png" alt = "" width = "750"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879879815908433930/unknown.png" alt = "" width = "900"/>
 
 - Interactive mode
 
-<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880317807247371/unknown.png" alt = "" width = "750"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880317807247371/unknown.png" alt = "" width = "900"/>
 
 - Non-interactive mode
 
