@@ -13,7 +13,7 @@ char **tokenizer(char *buffer, char *delimiter)
 
 	tokens = malloc(sizeof(char *) * mcount);
 
-	if((*buffer == '\n' || *buffer == ' ') && *(buffer + 1) == '\0')
+	if ((*buffer == '\n' || *buffer == ' ') && *(buffer + 1) == '\0')
 	{
 		return (NULL);
 	}
@@ -25,10 +25,9 @@ char **tokenizer(char *buffer, char *delimiter)
 		{
 			tokens = realloc(tokens, sizeof(char *) * (i + 1));
 			if (tokens == NULL)
-				return(NULL);
+				return (NULL);
 		}
 		buffer = NULL;
-		
 	}
 	return (tokens);
 }

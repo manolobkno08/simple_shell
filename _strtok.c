@@ -4,17 +4,17 @@
 char *_strtok(char *buffer, const char *delimiter)
 {
 	/* save the reference out of function */
-	static char *ref = NULL;
+	static char *ref;
 	char *str = NULL;
 	char *set = NULL;
 
 	buffer = buffer ? buffer : ref;
 
-	if(*buffer != '\0')
+	if (*buffer != '\0')
 	{
 		set = buffer;
-		
-		if(!*set)
+
+		if (!*set)
 		{
 			ref = '\0';
 		}
@@ -27,7 +27,7 @@ char *_strtok(char *buffer, const char *delimiter)
 				set++;
 			}
 
-			if(*set != '\0')
+			if (*set != '\0')
 			{
 				*set = '\0';
 				set++;

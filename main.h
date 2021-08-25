@@ -15,18 +15,19 @@
 
 typedef struct vars
 {
-	char * buffer; 
-	/* esto es lo que me devuelve mi tokenizer */
-	char ** array;
-}vars_t;
+	char *buffer;
+	char **array;
+} vars_t;
 
 typedef struct matcher
 {
-	char * string;
+	char *string;
 	char (*f)(vars_t *);
 } match_t;
 
 int _strlen(char *str);
+int _puts(char *str);
+int _putchar(char c);
 char *_strcat(char *str1, char *str2);
 char *_strdup(char *str);
 int _strncmp(char *str, char *str2, int num);
@@ -34,7 +35,10 @@ int _strncmp(char *str, char *str2, int num);
 char **tokenizer(char *buffer, char *delimiter);
 char *_strtok(char *buffer, const char *delimiter);
 
-char (* match(vars_t * m))(vars_t * n);
-char esc(vars_t * vars);
+void checkpath(vars_t vars, char **environment);
+int concatpath(vars_t vars, char **environment);
+
+char (*match(vars_t *m))(vars_t *m);
+char esc(vars_t *vars);
 
 #endif

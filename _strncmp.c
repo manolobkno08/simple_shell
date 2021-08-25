@@ -19,7 +19,6 @@ int _strncmp(char *str1, char *str2, int num)
 	{
 		return (0);
 	}
-	
+
 	return (-1);
-	
 }
