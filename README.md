@@ -1,7 +1,3 @@
-
-<<<<<<< HEAD
-=======
-
 <img  src  =  "https://www.holbertonschool.com/holberton-logo.png"  alt  =  ""  width  =  "500"/>
 
 
