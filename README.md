@@ -63,9 +63,9 @@ The shell allows us to access the operating system kernel. Actually, the shell i
 
   
 
-### FlowChar
+### FlowChart
 
-<img src = "" alt = "https://lucid.app/documents/view/949bf257-19bb-4874-b378-23053ed5c6ad" width = "500"/>
+<a href="https://lucid.app/lucidchart/invitations/accept/inv_a1bc173c-ce8a-4496-b8c3-bcfad1636812?viewport_loc=-311%2C-106%2C2560%2C1168%2C0_0"><img src="https://github.com/manolobkno08/simple_shell/blob/main/images/diagrama.png"></a>
 
   
 
