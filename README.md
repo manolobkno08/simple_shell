@@ -65,7 +65,7 @@ The shell allows us to access the operating system kernel. Actually, the shell i
 
 ### FlowChar
 
-<img src = "" alt = "" width = "500"/>
+<img src = "" alt = "https://lucid.app/documents/view/949bf257-19bb-4874-b378-23053ed5c6ad" width = "500"/>
 
   
 
