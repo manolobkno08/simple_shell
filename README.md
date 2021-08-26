@@ -5,6 +5,8 @@
 
 It is a console that contains an interpreted environment and this is the content:
 
+- `_freeenv` --> Release the memory used in environment variable
+
 - `_strcat.c` --> Concatenates strings
 
 - `_strdup.c` --> Duplicate strings
