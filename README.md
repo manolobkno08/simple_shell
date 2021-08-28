@@ -1,9 +1,11 @@
-<img  src  =  "https://www.holbertonschool.com/holberton-logo.png"  alt  =  ""  width  =  "500"/>
+<img  src  =  "https://www.holbertonschool.com/holberton-logo.png" width  =  "500"/>
 
 
 # Simple_shell
 
 It is a console that contains an interpreted environment and this is the content:
+
+- `_freeenv` --> Release the memory used in environment variable
 
 - `_strcat.c` --> Concatenates strings
 
@@ -30,6 +32,7 @@ It is a console that contains an interpreted environment and this is the content
 - `main.h` --> Library
 
   
+
 
 ### Desciption
 
@@ -63,9 +66,9 @@ The shell allows us to access the operating system kernel. Actually, the shell i
 
   
 
-### FlowChar
+### FlowChart
 
-<img src = "" alt = "https://lucid.app/documents/view/949bf257-19bb-4874-b378-23053ed5c6ad" width = "500"/>
+<a href="https://lucid.app/lucidchart/invitations/accept/inv_a1bc173c-ce8a-4496-b8c3-bcfad1636812?viewport_loc=-311%2C-106%2C2560%2C1168%2C0_0"><img src="https://github.com/manolobkno08/simple_shell/blob/main/images/diagrama.png"></a>
 
   
 
@@ -73,15 +76,15 @@ The shell allows us to access the operating system kernel. Actually, the shell i
 
 - Compile code
 
-<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879879815908433930/unknown.png" alt = "" width = "900"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879879815908433930/unknown.png" width = "900"/>
 
 - Interactive mode
 
-<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880317807247371/unknown.png" alt = "" width = "900"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880317807247371/unknown.png" width = "900"/>
 
 - Non-interactive mode
 
-<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880794284376124/unknown.png" alt = "" width = "900"/>
+<img src = "https://cdn.discordapp.com/attachments/855109206503194644/879880794284376124/unknown.png" width = "900"/>
 
 
   
