@@ -28,7 +28,7 @@ char **tokenizer(char *buffer, char *delimiter)
 	while ((tokens[i] = _strtok(buffer, delimiter)) != NULL)
 	{
 		i++;
-		if (i >= mcount)
+		if (i > mcount)
 		{
 			tokens = realloc(tokens, sizeof(char *) * (i + 1));
 			if (tokens == NULL)

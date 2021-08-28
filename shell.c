@@ -28,32 +28,7 @@ int main(__attribute__((unused)) int argc,
 		else
 		{
 			f = match(&vars);
-			if (f != NULL)
-				f(&vars);
-
-			else if (f == NULL)
-			{
-				if ((access(vars.array[0], F_OK)) != -1)
-				{
-					checkpath(vars, environment);
-					if (isatty(STDIN_FILENO))
-						_puts(prompt);
-					continue;
-				}
-				if (concatpath(vars, environment) == 0)
-				{
-					if (isatty(STDIN_FILENO))
-					{
-						_puts(vars.buffer);
-						_puts(": command not found\n");
-					}
-					if (isatty(STDIN_FILENO))
-						_puts(prompt);
-					continue;
-				}
-			}
-			if (isatty(STDIN_FILENO))
-				_puts(prompt);
+			check_match_return(f, &vars, environment);
 		}
 	}
 	if (isatty(STDIN_FILENO))

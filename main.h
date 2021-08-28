@@ -48,8 +48,9 @@ int _strncmp(char *str, char *str2, int num);
 char **tokenizer(char *buffer, char *delimiter);
 char *_strtok(char *buffer, const char *delimiter);
 
-void checkpath(vars_t vars, char **environment);
-int concatpath(vars_t vars, char **environment);
+void checkpath(vars_t *vars, char **environment);
+int concatpath(vars_t *vars, char **environment);
+void check_match_return(char (*f)(vars_t *r), vars_t *vars, char **environment);
 
 char (*match(vars_t *m))(vars_t *m);
 char esc(vars_t *vars);

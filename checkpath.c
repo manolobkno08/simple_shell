@@ -7,7 +7,7 @@
  * Return: Success void
  */
 
-void checkpath(vars_t vars, char **environment)
+void checkpath(vars_t *vars, char **environment)
 {
 	pid_t child;
 	int status;
@@ -16,7 +16,7 @@ void checkpath(vars_t vars, char **environment)
 	switch (child)
 	{
 	case 0:
-		execve(vars.array[0], vars.array, environment);
+		execve(vars->array[0], vars->array, environment);
 		break;
 	case -1:
 		perror("Error to create a child proccess");
@@ -34,7 +34,7 @@ void checkpath(vars_t vars, char **environment)
  * Return: Success 0 Always
  */
 
-int concatpath(vars_t vars, char **environment)
+int concatpath(vars_t *vars, char **environment)
 {
 	int i, status;
 	char **tokensEnv;
@@ -54,7 +54,7 @@ int concatpath(vars_t vars, char **environment)
 	while (tokensEnv[i] != NULL)
 	{
 		concat1 = _strcat(tokensEnv[i], "/"); /*   /usr/bin/   */
-		concat2 = _strcat(concat1, vars.array[0]); /*   /usr/bin/ls   */
+		concat2 = _strcat(concat1, vars->array[0]); /*   /usr/bin/ls   */
 
 		if (access(concat2, F_OK) == 0)
 		{
@@ -62,7 +62,7 @@ int concatpath(vars_t vars, char **environment)
 			switch (child)
 			{
 			case 0:
-				execve(concat2, vars.array, environment);
+				execve(concat2, vars->array, environment);
 				break;
 			case -1:
 				perror("Error to create a child proccess");
